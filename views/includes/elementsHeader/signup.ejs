@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<%- include('./includes/head.ejs') -%>
+<%- include('./includes/header.ejs') -%>
+<head lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <title>Home</title>
+  </head>
+  <body>
+
+    <body id="mainPage" class="clear-fix">
+      <!--Header-->
+      <header class ="top-header clear-fix fix-width">       
+      <a href="" class="logo"><img src="images/logo04.jpg" alt=""></a>
+     
+      <div class=" header-Left ">
+        <nav>
+          <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/addmission">addmission▿</a></li>
+            <li><a href="/courses">courses▿</a></li>
+            <li><a href="/new">news▿</a></li>
+            <li><a href="/contact">contact us▿</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class=" header-input-center">
+          <div class="wrap-input1 w-full p-b-4">
+
+                <input class="input1 border-input  " type="text"  placeholder="Search Country, University........">
+                <span></span>
+               
+          </div>
+        </div>
+       
+      </header>
+
+      <!--Content-->
+        
+      <div class="flex-w flex-sb-m p-b-52 container-fluid">		
+        <div class="content-transform m-tb-10 ">          
+            <div class="itemContent ">
+              <h5 class="">Country Scholarships</h5>
+              <div class="border-margin"></div>
+
+              
+            </div>      
+        </div>         
+    </div>
+
+ 
+    </body>
+    
+    <div class="footer">
+    <%- include('./includes/footer.ejs') -%>
+    </div>
+    <%- include('./includes/end.ejs') -%>
+</html>

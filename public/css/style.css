@@ -1,0 +1,226 @@
+#mainPage{
+    width: 100%;
+}
+
+.clear-fix{
+    overflow: hidden;
+    clear: both;
+}
+
+
+.top-header{
+    padding: 5px ;
+    
+}
+.fix-width{
+    width: 1350px;
+    margin: 0 auto;
+}
+.logo{
+    width: 120px;
+    float: left;
+    
+}
+
+.header-Left{
+    width: 650px;
+    float: right;
+
+}
+
+.header-input-center{
+    width: 300px;
+    margin-top:30px;
+    margin-right:100px;
+    float: right;
+    text-align: center;
+    text-decoration:none;
+   
+}
+
+.header-Left nav ul li{
+    float: left;
+    text-align: right;
+}
+
+.header-Left nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fe9b12;
+    display: block;
+    padding: 15px 20px;
+}
+
+.border-input{
+    border-bottom: solid;
+    border-bottom-color: #fe9b12;
+    opacity: 0.5;
+    
+}
+
+
+#banner{
+    margin-top: 10px;
+}
+
+.fix-width-banner{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.banner-image {
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    padding-top: 150px ;
+    padding-bottom: 150px;  
+    height: 635px;
+    background: #ed1c24 url(https://demo.themeum.com/wordpress/educon/wp-content/uploads/2017/02/banner-1.png?id=1772) !important;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.banner-image h2{
+ 
+  font-size: 60px;
+  word-wrap: break-word;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 800;
+  margin: 0px;
+  padding: 10px;
+}
+.banner-image h3{
+ 
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 30px 0 50px;
+    padding: 10px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.button-banner{
+    margin-left: 20px;
+    background-color: #fe9b12;
+}
+
+
+
+
+.border-bottom{
+    border-bottom: solid 1px #ccc;
+}
+
+.itemContent{
+
+    width: 368px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-left: 50px;
+    float: left;
+ 
+}
+
+.itemContent:last-child{
+    margin-right: 0 !important;
+    
+}
+
+.border-margin{
+    border-bottom: solid;
+    border-bottom-color:#fe9b12 ;
+    width: 100%;
+    
+}
+.tranform{
+    font-size:20px;
+    word-wrap: break-word;
+    text-transform: uppercase;  
+    color:#000000;
+    font-weight:700;
+    margin:20 0px 26px 0px;
+    
+  
+}
+
+.itemContent h5{
+    margin-bottom: 30px;
+  
+    
+}
+.border-margin{
+  
+    margin-bottom: 30px;
+  
+}
+
+.banner-text-head{
+    font-size:20px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    color:#000000;
+    font-weight:400;
+}
+
+.banner-text{
+    font-size:16px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    color:#000000;
+    font-weight:400;
+    opacity: 0.4;
+    margin:20 0px 26px 0px;
+}
+
+.banner-text-read{
+    font-size:16px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    color:#fe9b12;
+    font-weight:400;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.content-transform{
+    font-size:30px;
+    word-wrap: break-word;
+    text-transform: uppercase;  
+    color:#000000;
+    font-weight:400;
+    margin:20 0px 26px 0px;
+    
+}
+
+.content-margin{
+    font-size:20px;
+    word-wrap: break-word;
+    color:#000000;
+    font-weight:500;
+    border-bottom: 1px solid transparent;
+    border-color: #000000;
+}
+.content-margin-elements{
+    font-size:20px;
+    word-wrap: break-word;
+    color:#000000;
+    font-weight:500;
+
+    opacity: 0.5;
+}
+.content-margin01{
+    margin-left: 35px;
+}
+
+.button-footer{
+    
+    background-color: #fe9b12;
+}
+
+.color-mouse:hover {color: #fe9b12;}
