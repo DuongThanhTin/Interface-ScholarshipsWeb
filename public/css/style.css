@@ -1,5 +1,6 @@
 #mainPage{
     width: 100%;
+    
 }
 
 .clear-fix{
@@ -115,11 +116,30 @@
     border-bottom: solid 1px #ccc;
 }
 
-.itemContent{
+
+.itemSlide{
 
     width: 368px;
+    height: 700px;
     margin-top: 40px;
-    margin-right: 60px;
+    margin-right: 40px;
+    margin-left: 50px;
+    float: left;
+ 
+}
+
+.slide-padding{
+    padding: 12px 20px; 
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .18)
+}
+
+
+.itemContent{
+
+    width: 400x;
+    margin-top: 40px;
+    margin-right: 40px;
     margin-left: 50px;
     float: left;
  
@@ -143,8 +163,11 @@
     color:#000000;
     font-weight:700;
     margin:20 0px 26px 0px;
-    
-  
+}
+
+
+img{
+    max-width: 100%;    
 }
 
 .itemContent h5{
