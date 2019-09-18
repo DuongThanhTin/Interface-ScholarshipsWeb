@@ -15,6 +15,38 @@ app.get("/", function(request, response)  {
     response.render("homepage");
 });
 
+//ElementHeader
+//- About us
+app.get("/aboutus", function(request, response)  {
+  
+    response.render("elementsHeader/aboutus");
+});
+
+//- Contact
+app.get("/contact", function(request, response)  {
+  
+    response.render("elementsHeader/contact");
+});
+
+//- Courses
+app.get("/courses", function(request, response)  {
+  
+    response.render("elementsHeader/courses");
+});
+
+//- Guid
+app.get("/guide", function(request, response)  {
+  
+    response.render("elementsHeader/guide");
+});
+
+//- News
+app.get("/news", function(request, response)  {
+  
+    response.render("elementsHeader/news");
+});
+
+
 app.get("/countryscholarships", function(request, response)  {
    
     response.render("countryscholarships");

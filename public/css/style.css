@@ -24,8 +24,9 @@
 }
 
 .header-Left{
-    width: 650px;
+    width: 700px;
     float: right;
+
 
 }
 
@@ -53,7 +54,7 @@
 }
 
 .border-input{
-    border-bottom: solid;
+    border-bottom:  solid;
     border-bottom-color: #fe9b12;
     opacity: 0.5;
     
@@ -81,6 +82,102 @@
     background-repeat: no-repeat ;
     background-size: cover;
 }
+.banner-about {
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    padding-top: 150px ;
+    padding-bottom: 150px;  
+    height: 600px;
+    background: #ed1c24 url(https://www.publicagenda.org/files/banner_newONA.jpg) !important;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.banner-about h2{
+ 
+    font-size: 60px;
+    word-wrap: break-word;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0px;
+    padding: 10px;
+  }
+  .banner-about h3{
+   
+      font-size: 18px;
+      word-wrap: break-word;
+      line-height: 30px;
+      color: #ffffff;
+      font-weight: 400;
+      margin: 30px 0 50px;
+      padding: 10px;
+      width: 600px;
+      margin-left: 20px;
+  }
+
+.banner-guid {
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    padding-top: 150px ;
+    padding-bottom: 150px;  
+    height: 635px;
+    
+    background: #ed1c24 url(http://www.lake.k12.il.us/ImageRepository/Document?documentID=6829) !important;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.banner-courses {
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    padding-top: 150px ;
+    padding-bottom: 150px;  
+    height: 635px;
+    background: #ed1c24 url(https://www.isasa.org/wp-content/uploads/2018/05/systemic-evaluation.jpg) !important;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.banner-contact {
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    padding-top: 150px ;
+    padding-bottom: 150px;  
+    height: 635px;
+    background: #ed1c24 url(https://www.designveloper.com/wp-content/themes/designveloper/images/cover-contact-us.jpg) !important;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+
+.banner-contact h2{
+ 
+    font-size: 60px;
+    word-wrap: break-word;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0px;
+    padding: 10px;
+  }
+  .banner-contact h3{
+   
+      font-size: 18px;
+      word-wrap: break-word;
+      line-height: 30px;
+      color: #ffffff;
+      font-weight: 400;
+      margin: 30px 0 50px;
+      padding: 10px;
+      width: 600px;
+      margin-left: 20px;
+  }
+  
+
 .banner-image h2{
  
   font-size: 60px;
@@ -138,7 +235,7 @@
 .itemContent{
 
     width: 400x;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-right: 40px;
     margin-left: 50px;
     float: left;

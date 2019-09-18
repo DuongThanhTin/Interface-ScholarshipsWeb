@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<%- include('./includes/head.ejs') -%>
-<%- include('./includes/header.ejs') -%>
-<head lang="en" dir="ltr">
+<%- include('../includes/head.ejs') -%>
+<%- include('../includes/header.ejs') -%>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <body id="mainPage" class="clear-fix">
+    <div id="mainPage" class="clear-fix">
       <!--Header-->
       <header class ="top-header clear-fix fix-width">       
       <a href="" class="logo"><img src="images/logo04.jpg" alt=""></a>
@@ -19,9 +19,10 @@
         <nav>
           <ul>
             <li><a href="/">home</a></li>
-            <li><a href="/addmission">addmission▿</a></li>
+            <li><a href="/aboutus">about us▿</a></li>
             <li><a href="/courses">courses▿</a></li>
             <li><a href="/new">news▿</a></li>
+            <li><a href="/guide">guide▿</a></li>
             <li><a href="/contact">contact us▿</a></li>
           </ul>
         </nav>
@@ -36,25 +37,21 @@
         </div>
        
       </header>
-
-      <!--Content-->
-        
-      <div class="flex-w flex-sb-m p-b-52 container-fluid">		
-        <div class="content-transform m-tb-10 ">          
-            <div class="itemContent ">
-              <h5 class="">Courses</h5>
-              <div class="border-margin"></div>
-
-              
-            </div>      
-        </div>         
     </div>
+      <!--Banner-->
+      <div class="container-fluid">     
+        <div class="banner-about">
+            <h2>ABOUT US</h2>
+            <h3>The Lorem ipsum Scholarship Program provides the opportunity for highly motivated students to earn a bachelor's degree that helps them build a successful career and rewarding life. Lorem ipsum Scholars are honest, respectful, self-reliant, and compassionate.</h3>
+            
+            
+          
+          </div>
+      </div>
 
- 
-    </body>
-    
-    <div class="footer">
-    <%- include('./includes/footer.ejs') -%>
-    </div>
-    <%- include('./includes/end.ejs') -%>
-</html>
+
+      <div class="footer">
+          <%- include('../includes/footer.ejs') -%>
+        </div>
+          <%- include('../includes/end.ejs') -%>
+        </html>

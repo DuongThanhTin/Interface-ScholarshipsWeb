@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<%- include('./includes/head.ejs') -%>
-<%- include('./includes/header.ejs') -%>
-<head lang="en" dir="ltr">
+<%- include('../includes/head.ejs') -%>
+<%- include('../includes/header.ejs') -%>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <body id="mainPage" class="clear-fix">
+    <div id="mainPage" class="clear-fix">
       <!--Header-->
       <header class ="top-header clear-fix fix-width">       
       <a href="" class="logo"><img src="images/logo04.jpg" alt=""></a>
@@ -19,9 +19,10 @@
         <nav>
           <ul>
             <li><a href="/">home</a></li>
-            <li><a href="/addmission">addmission▿</a></li>
+            <li><a href="/aboutus">about us▿</a></li>
             <li><a href="/courses">courses▿</a></li>
             <li><a href="/new">news▿</a></li>
+            <li><a href="/guide">guide▿</a></li>
             <li><a href="/contact">contact us▿</a></li>
           </ul>
         </nav>
@@ -36,25 +37,23 @@
         </div>
        
       </header>
-
-      <!--Content-->
-        
-      <div class="flex-w flex-sb-m p-b-52 container-fluid">		
-        <div class="content-transform m-tb-10 ">          
-            <div class="itemContent ">
-              <h5 class="">Addmission</h5>
-              <div class="border-margin"></div>
-
-              
-            </div>      
-        </div>         
     </div>
+
+  </div>
+  <!--Banner-->
+  <div class="container-fluid">     
+    <div class="banner-contact">
+        <h2>Scholarship Guide </h2>
+        <h3>Think of applying for a scholarship as auditioning for a play: you’ve put the time and energy into preparing for a great audition, but sometimes you just aren’t the right fit for the part. Just because you don’t get cast for a role, doesn’t mean you quit auditioning. You keep working and trying to win the best role - or in this case, the best scholarship.</h3>
+           
+      </div>
+  </div>
 
  
     </body>
     
     <div class="footer">
-    <%- include('./includes/footer.ejs') -%>
+    <%- include('../includes/footer.ejs') -%>
     </div>
-    <%- include('./includes/end.ejs') -%>
+    <%- include('../includes/end.ejs') -%>
 </html>
