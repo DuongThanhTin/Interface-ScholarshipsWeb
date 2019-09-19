@@ -46,6 +46,13 @@ app.get("/news", function(request, response)  {
     response.render("elementsHeader/news");
 });
 
+//- News
+app.get("/test", function(request, response)  {
+  
+    response.render("elementsHeader/test");
+});
+
+
 
 app.get("/countryscholarships", function(request, response)  {
    
