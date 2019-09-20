@@ -129,34 +129,53 @@
       </div>
      
 
-      <!--Elements Content-->
-    <div class="flex-w flex-sb-m p-b-52 container-fluid">
-      <div >		
-        <div class="content-transform m-tb-10 ">          
-          <div class="itemContent ">
-                <h5 class="">Country Scholarships</h5>
-                <div class="border-margin"></div>
-                
-                <!--Content - Country-->
-                   
-          </div>         
+   
       </div>
-
-
-      <div class="flex-w flex-sb-m p-b-52 container-fluid">		
-          <div class="content-transform m-tb-10 ">           
-              <div class="itemContent ">
-                <h5 class="">University Scholarships</h5>
-                <div class="border-margin"></div>
-              </div>  
-          </div>         
-      </div>
-    </div>
+   
      </section>
-    
+     
+
+     <div>
+          <!--Elements Content-->
+      <div class="elements">
+          <div class="univer">
+            <div class="flex-w flex-sb-m  container-fluid">		
+                  <div class="content-transform m-tb-10 ">           
+                      <div class="itemContent ">
+                        <h5 class="">University Scholarships</h5>
+                        <div class="border-margin"></div>
+  
+  
+                      </div>  
+                  </div>         
+              </div>
+            </div>
+         </div>
+        </div>  
+        <%- include('./includes/homepage-university.ejs') -%>
+        <div class="elements">
+          <div class="country">
+            <div class="flex-w flex-sb-m container-fluid">
+                <div >		
+                  <div class="content-transform m-tb-10 ">          
+                    <div class="itemContent ">
+                          <h5 class="">Country Scholarships</h5>
+                          <div class="border-margin"></div>
+                          
+                          <!--Content - Country-->
+                        
+                          
+                    </div>         
+                </div>
+                
+              </div>           
+     </div>
+     <%- include('./includes/homepage-country.ejs') -%>
   </body>
  
-    
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <div class="footer">
   <%- include('./includes/footer.ejs') -%>
 </div>

@@ -51,6 +51,11 @@ app.get("/test", function(request, response)  {
   
     response.render("elementsHeader/test");
 });
+app.get("/test2", function(request, response)  {
+  
+    response.render("elementsHeader/test2");
+});
+
 
 
 
