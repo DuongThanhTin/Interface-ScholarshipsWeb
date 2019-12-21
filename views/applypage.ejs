@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<%- include('./includes/head.ejs') -%>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Home</title>
+</head>
+
+<body>
+  <div id="mainPage" class="clear-fix">
+    <!--Header-->
+    <%- include('./includes/header.ejs') -%>
+    <!--Menu-->
+    <%- include('./includes/menu.ejs') -%>
+  <!--Banner-->
+  <div class="">
+    <div class="detail-banner-image detail-banner">
+      <div class="detail-banner-right">
+      <h2 class="detail-banner-text" style="text-align:center">Education Matters Scholarship</h2>
+      </div>
+  
+   
+  </div>
+  </div>
+
+    <!--Elements Content-->
+<!--Content-->
+<div class="detail-content">
+  <div class="container">
+  <div class="row">
+      <div class="detail-content-element">
+        
+          <div class="detail-content-left col-sm-10 col-md-10 col-lg-10">
+              <h4 style="width: 1000px;">Tell us a little more about you!</h4>
+              <i>Personal information, like address and phone number, are used to contact finalists.</i>
+      
+               <!--Form-->
+              <div class="col-md-6">
+                <form class="p-t-20 p-b-10" >
+                  <div class="form-group">
+                    <div>Address</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="Enter your address">
+                  </div>
+                  <div class="form-group">
+                    <div>*ZIP</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="Enter your ZIP">
+                  </div>
+                  <div class="form-group">
+                    <div>Province</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="Enter your Province">
+                  </div>
+                  <div class="form-group">
+                    <div>*Main Phone Number</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="Enter your main phone number">
+                  </div>
+                  <div class="form-group">
+                    <div>*Alt Phone Number</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="Enter your phone number">
+                  </div>
+                  <div class="form-group">
+                    <div>*Student's date of birth(MM/DD/YYYY)</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="../.../....">
+                  </div>
+                  
+                </form>
+              </div>
+              <div style="padding-left:15px">
+                <div>What is your gender identity? (We may suggest additional scholarships that are gender-specific)</div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Female
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                  <label class="form-check-label" for="exampleRadios3">
+                    Non-binary
+                  </label>
+                </div>
+              </div>
+              
+              <h4 class="p-t-20">Tell us a little more about school!</h4>
+              <div class="col-md-10">
+                <form class=" p-b-10" >
+                  <div class="form-group">
+                    <div>What is the name of the high school you currently attend or graduated from?</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <div>*My high school graduation year</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <div>*What's your GPA? If you've graduated, enter your final GPA.</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <div>What's the short list of schools that you'd like to attend, or that you're considering attending?</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="">
+                    <div class="p-t-10" >
+                      <input type="text" class="p-t-10  form-control" style="background-color: #E5E5E5" placeholder="">
+              
+                    </div>
+
+                  </div>
+                  <div class="form-group">
+                    <div>What major(s) are you currently studying or interested in?</div>
+                    <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="">
+                    <div class="p-t-10" >
+                      <input type="text" class="  form-control" style="background-color: #E5E5E5" placeholder="">
+              
+                    </div>
+                  </div>
+                  </form>
+                </div>
+                <h4 class="p-t-20">Tell us a little more about school!</h4>
+               
+            </div>
+
+      
+          
+          <div class="detail-content-right col-md-2 col-sm-4">
+    
+          </div>
+
+     
+      
+      </div>
+
+     <div>
+      <div class="col-md-12">
+        <form >
+          <div class="form-group" style="border-bottom: 1px solid;">
+            <div>"Imagine a historical figure is brought back to life. Who is it? What's their favorite mobile app?" (250 words or less)</div>
+            <input type="text" class="  form-control" style="height:100px;background-color: #E5E5E5" placeholder="">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" >
+              <div class="form-label-signup">
+                    <div  >I have read and agree to the Unigo Terms of Usage and Privacy Policy.</label>  
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="form-label-signup">Finished? Submit your application now. Note: you can edit your application by returning to this page until 11:59 Pacific Time on December 31, 2019.</div>
+      <div class="p-b-20 p-t-20 banner-button slide-button">
+        <button class="button-banner flex-c-m stext-101 cl0 directory-button  bor1  ">
+          Submit Application
+        </button>
+      </div>
+
+      <div class="flex-c-m">
+        <div class="form-label-signup">Or you can save your answers, then come back and submit when you're ready.</div>
+        <div class="p-b-20 p-t-20 banner-button slide-button">
+          <button class="m-l-20 button-save flex-c-m  cl0 directory-button-save  bor1  ">
+            Save for Later
+          </button>
+        </div>
+      </div>
+      
+    </div>
+      </div>
+  </div>
+</div>
+  
+        
+  </div>
+</body>
+
+
+<div class="footer-content">
+        <%- include('./includes/footer.ejs') -%>
+      </div>

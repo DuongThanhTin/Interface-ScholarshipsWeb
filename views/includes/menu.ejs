@@ -1,0 +1,25 @@
+<div class="clear-fix">
+    <!--menu-->
+    <div class="menu">
+        <div class=" topnav menu-content" id="myTopnav">
+            <a class="menu-element" href="/">HOME</a>
+            <a class="menu-element" href="#">COLLEGES</a>
+            <a class="menu-element" href="/easyscholarships">SCHOLARSHIPS</a>
+            <a class="menu-element" href="/easyscholarships">EASY SCHOLARSHIPS</a>
+            <a class="menu-element" href="/article">ARTICLES</a>
+            <a href="javascript:void(0);"  class="icon" onclick="myFunction()">☰</a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav menu-content") {
+      x.className += " responsive ";
+  } else {
+      x.className = "topnav ";
+  }
+}
+</script>

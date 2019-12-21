@@ -11,63 +11,50 @@ app.set("views", "./views");
  
  
 app.get("/", function(request, response)  {
-    
     response.render("homepage");
 });
 
 //ElementHeader
-//- About us
-app.get("/aboutus", function(request, response)  {
-  
-    response.render("elementsHeader/aboutus");
+//- 
+app.get("/apply", function(request, response)  { 
+    response.render("applypage");
 });
 
-//- Contact
-app.get("/contact", function(request, response)  {
-  
-    response.render("elementsHeader/contact");
+
+//Easy Scholarship
+app.get("/easyscholarships", function(request, response)  { 
+    response.render("easyscholarships");
 });
 
-//- Courses
-app.get("/courses", function(request, response)  {
-  
-    response.render("elementsHeader/courses");
+
+//Login
+app.get("/login", function(request, response)  { 
+    response.render("loginpage");
 });
 
-//- Guid
-app.get("/guide", function(request, response)  {
-  
-    response.render("elementsHeader/guide");
+//Signup
+app.get("/signup", function(request, response)  { 
+    response.render("signuppage");
 });
 
-//- News
-app.get("/news", function(request, response)  {
-  
-    response.render("elementsHeader/news");
+//Article 
+app.get("/article", function(request, response)  { 
+    response.render("articlepage");
 });
 
-//- News
-app.get("/test", function(request, response)  {
-  
-    response.render("elementsHeader/test");
-});
-app.get("/test2", function(request, response)  {
-  
-    response.render("elementsHeader/test2");
+//Article Detail
+app.get("/articledetail", function(request, response)  { 
+    response.render("articledetailpage");
 });
 
 
 
-
-app.get("/countryscholarships", function(request, response)  {
-   
-    response.render("countryscholarships");
+//Article Detail
+app.get("/frame", function(request, response)  { 
+    response.render("newframe");
 });
 
-app.get("/universityscholarships", function(request, response)  {
-  
-    response.render("universityscholarships");
-});
+
 
 app.listen(port,function(){
     console.log('Connected')

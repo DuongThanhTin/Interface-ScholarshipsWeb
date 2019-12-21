@@ -1,0 +1,23 @@
+.news-padding{
+    margin-top: 30px;
+    margin-left: 100px;
+  
+ }
+ .news-border{
+     margin-top: 20px;
+     margin-bottom: 25px;
+     border-bottom: 0.5px solid rgb(207, 206, 206);
+     
+ }
+
+.article-text-element{  
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.article-element{
+    background-color: #91D45B;width: 155px;height: 27px;color: white;
+}
