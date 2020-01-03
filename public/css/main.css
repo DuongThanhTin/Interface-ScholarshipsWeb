@@ -2652,6 +2652,11 @@ input.num-product::-webkit-inner-spin-button {
   border-radius: 23px;
 }
 
+.borcustom {
+  border-radius: 10px;
+}
+
+
 .bor2 {
   border-radius: 20px;
 }

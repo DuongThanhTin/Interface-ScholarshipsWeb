@@ -33,7 +33,7 @@
 .header-input-center{
     width: 300px;
     margin-top:30px;
-    margin-right:100px;
+    margin-left:70px;
     float: right;
     text-align: center;
     text-decoration:none;
@@ -48,7 +48,7 @@
 .header-Left nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #fe9b12;
+    color: #2259C5;
     display: block;
     padding: 15px 20px;
 }
@@ -57,12 +57,22 @@
     margin-top:3%;
 }
 
+.header-login{ 
+    width: 210px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 .border-input{
     border-bottom:  solid;
-    border-bottom-color: #fe9b12;
+    border-bottom-color: #2259C5;
     opacity: 0.5;
     
 }
+
+
 
 
 #banner{
@@ -239,14 +249,21 @@
     width: 600px;
     margin-left: 20px;
 }
+
 .button-banner{
     margin-left: 20px;
-    background-color: #fe9b12;
+    background-color: #2259C5;
 }
 
+.detail-button-banner{
+    margin-left: 20px;
+    background-color: #922C9B;
+}
 
-
-
+.easy-button-banner{
+    margin-left: 20px;
+    background-color: #CC44BE;
+}
 .border-bottom{
     border-bottom: solid 1px #ccc;
 }
@@ -383,7 +400,7 @@ img{
 
 .button-footer{
     
-    background-color: #fe9b12;
+    background-color: #2259C5;
 }
 
 .color-mouse:hover {color: #fe9b12;}

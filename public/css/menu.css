@@ -1,7 +1,7 @@
 .menu{
     width: 100%;
     height: 50px;
-    background-color: #fe9b12;
+    background-color: #2259C5;
    
 }
 
@@ -22,9 +22,12 @@
 
 
 .topnav a:hover {
-    
-    color: black;
+    text-decoration: none;
+    background-color: #5587f2;
+    color: white;
+    transition:.5s;
 }
+
 
 .topnav .icon {
     display: none;

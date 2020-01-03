@@ -1,0 +1,36 @@
+.monthly-banner-text{
+    font-size:26px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-right: -56px;
+    color:white;
+}
+
+.monthly-element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.monthly-element-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.monthly-element-text--1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 53px;
+    
+    color: #B75CE2;
+}
+
+.monthly-element-text--2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2259C5;
+
+}
