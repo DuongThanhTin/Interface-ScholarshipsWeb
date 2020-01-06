@@ -10,7 +10,7 @@
   <title>Home</title>
 </head>
 
-<body>
+<div>
   <div id="mainPage" class="clear-fix">
     <!--Header-->
     <%- include('./includes/header.ejs') -%>
@@ -127,7 +127,7 @@
                 <div id="graduation"></div>
                 
                 <!--Form-->
-                <form class="p-t-20 p-b-10" >
+                <form class="p-t-20 p-b-10" method="POST" action="/signup" >
                   <div class="form-group">
                     <input type="email" class="  form-control" style="background-color: #E5E5E5" placeholder="*EMAIL">
                    </div>
@@ -153,8 +153,9 @@
                             <div > Get notified about news, info, and scholarships.</label>
                       </div>
                     </div>
+                  
                   <div class=" p-t-15 p-b-10">
-                      <button style="width:200px" type="submit" class="btn btn-info" onclick="window.location.href='/login'">SIGN ME UP</button>
+                      <button style="width:200px" type="submit" class="btn btn-info" onclick="window.location.href='/branchmajordetail'">SIGN ME UP</button>
                   </div>  
                 </form>
                 <div class=" addition" >
@@ -170,12 +171,14 @@
     </div>
     <!---->
   </div>
+  </div>
+</div>
 </body>
+<div class="footer-content" style="padding:0px">
+  <%- include('./includes/footer.ejs') -%>
+</div>
 
 
-<div class="footer-content">
-        <%- include('./includes/footer.ejs') -%>
-      </div>
 
       <script language="javascript">
         // Lấy 2 button và thẻ div

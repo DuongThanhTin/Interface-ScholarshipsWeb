@@ -9,6 +9,10 @@ module.exports = {
           });
     },
 
+    postSignup: function(req, res, next) {
+        res.redirect("/login")
+    },
+
     //Logout
      postLogout: function(req, res, next) {
         // huy session khi user dang xuat

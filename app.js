@@ -54,9 +54,21 @@ app.get("/apply", function(request, response)  {
 });
 
 
-//Easy Scholarship
+//Easy Scholarships
 app.get("/easyscholarships", function(request, response)  { 
     response.render("easyscholarships");
+});
+
+//major Scholarships
+app.get("/major", function(request, response)  { 
+    response.render("majorpage");
+});
+app.get("/branchmajor", function(request, response)  { 
+    response.render("majorbranchpage");
+});
+
+app.get("/branchmajordetail", function(request, response)  { 
+    response.render("majorbranchdetailpage");
 });
 
 

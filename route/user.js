@@ -9,6 +9,8 @@ router.use(cors());
 //Login
 router.post("/login", API_user.postLogin);
 
+//Signup
+router.post("/signup", API_user.postSignup);
 //Logout
 router.post("/logout", API_user.postLogout);
 

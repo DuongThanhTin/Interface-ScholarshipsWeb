@@ -1,0 +1,53 @@
+.majordetail-text-left{
+    font-size: 17px;
+    width: 195px;
+    font-weight: 600;
+    display: block;
+    margin: 0px;
+    padding-right: 17px;
+ 
+}
+
+.majordetail-left{
+    padding: 0px;
+    display: block;
+    width: 70px;
+}
+
+
+.majordetail-right{ 
+    padding: 0px;
+    width: 715px;
+    text-align: justify;
+    padding-left: 45px;
+    
+}
+
+.majordetail-information{
+    height:160px;
+    width: 300px;
+    box-shadow:0 2px 3px 1px rgba(0,0,0,.1);
+}
+
+.information-text-head{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.information-text-center{
+    font-size: 3em;
+    font-weight: 500;
+    color: hotpink;
+}
+
+.information-right-text-center{
+    font-size: 2em;
+    font-weight: 500;
+    color: hotpink;
+}
+
+.information-text-footer{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #999;
+}
